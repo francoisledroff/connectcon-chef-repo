@@ -7,7 +7,7 @@ cookbook 'mongodb', '~> 0.16.1'
 cookbook 'chef-vault-util', git: 'https://github.com/francoisledroff/chef-vault-util.git', tag: '1.0.1'
 
 cookbook 'aem', git: 'https://github.com/francoisledroff/aem-cookbook'
-#cookbook 'aem', path: '~/workspace/github/aem-cookbook/'
+#cookbook 'aaem', path: '~/workspace/github/aem-cookbook/'
 
  
 
