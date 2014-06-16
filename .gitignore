@@ -35,3 +35,10 @@ build/
 .rvmrc
 
 /data_bags/secret
+Vagrantfile
+.vagrant
+*.lock
+temp/
+berkshelf-config.json
+log.md
+
