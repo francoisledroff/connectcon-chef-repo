@@ -41,4 +41,7 @@ Vagrantfile
 temp/
 berkshelf-config.json
 log.md
+clients
+nodes
+
 

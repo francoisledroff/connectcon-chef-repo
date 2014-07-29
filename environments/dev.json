@@ -1,0 +1,19 @@
+{
+   "name":"dev",
+   "json_class":"Chef::Environment",
+   "chef_type":"environment",
+   "default_attributes":{
+   },
+   "override_attributes":{
+      "dev_mode":"true",
+      "aem":{
+         "version":"6.0.0.20140515",
+         "download_url":"http://bsi-nexus.corp.adobe.com:8080/nexus/content/repositories/hub-releases/com/adobe/aem/6.0.0.20140515/aem-6.0.0.20140515.jar",
+         "license_url":"http://bsi-nexus.corp.adobe.com:8080/nexus/content/repositories/hub-releases/com/adobe/aem_license/6.0.0.20140515/aem_license-6.0.0.20140515.properties",
+         "dispatcher": {
+         	"mod_dispatcher_url":"todo",
+         	"version":"todo"
+         }
+      }
+   }
+}
