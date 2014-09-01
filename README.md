@@ -28,7 +28,7 @@ Except for vagrant installation all the above can be boiled down to the followin
 	gem install bundler
 	git clone https://github.com/francoisledroff/connectcon-chef-repo.git
 	cd connectcon-chef-repo
-	./local_setup.sh
+	./local_first_usecase.sh
 	
 A few minutes later you will have a centos vm running on a local IP ([set up in our aem-metal default recipe](https://github.com/francoisledroff/connectcon-chef-repo/blob/master/cookbooks/aem_metal/recipes/author.rb#L11)) If this [private range IP](http://en.wikipedia.org/wiki/Private_network) is in used pick another one, just change the recipe file.
 
